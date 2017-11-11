@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		220BE4531EABB9AB00442FDC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220BE4521EABB9AB00442FDC /* AppDelegate.swift */; };
+		220BE4551EABB9AB00442FDC /* MessagesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220BE4541EABB9AB00442FDC /* MessagesController.swift */; };
+		220BE4581EABB9AB00442FDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 220BE4561EABB9AB00442FDC /* Main.storyboard */; };
+		220BE45A1EABB9AB00442FDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 220BE4591EABB9AB00442FDC /* Assets.xcassets */; };
+		220BE45D1EABB9AB00442FDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 220BE45B1EABB9AB00442FDC /* LaunchScreen.storyboard */; };
+		220BE4651EABBB8800442FDC /* RegisterPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220BE4641EABBB8700442FDC /* RegisterPageController.swift */; };
+		220BE4671EABBD7700442FDC /* FirstPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220BE4661EABBD7700442FDC /* FirstPage.swift */; };
+		22A405511EAFD2A700B5C90B /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A405501EAFD2A700B5C90B /* UserCell.swift */; };
+		22A405531EB0823E00B5C90B /* ResetPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A405521EB0823E00B5C90B /* ResetPassword.swift */; };
+		22DD8A941EB8D52B008BA1C5 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DD8A931EB8D52B008BA1C5 /* MessageCell.swift */; };
+		22F6DA611EAEBA0500C35FE5 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F6DA601EAEBA0500C35FE5 /* Message.swift */; };
+		22FCC4E51EABC87200A52781 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 22FCC4E41EABC87200A52781 /* GoogleService-Info.plist */; };
+		22FCC4E71EABD1A700A52781 /* LoginPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FCC4E61EABD1A700A52781 /* LoginPageController.swift */; };
+		22FCC4E91EABFE0A00A52781 /* NewMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FCC4E81EABFE0A00A52781 /* NewMessage.swift */; };
+		22FCC4EB1EABFE5100A52781 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FCC4EA1EABFE5100A52781 /* User.swift */; };
+		22FCC4ED1EAC0A8200A52781 /* ChatController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FCC4EC1EAC0A8200A52781 /* ChatController.swift */; };
+		22FCC4EF1EAC138900A52781 /* Handlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FCC4EE1EAC138900A52781 /* Handlers.swift */; };
+		A5DDE454A03399A4E4200835 /* Pods_Edge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C9F02E9BA76EC1F6F3927C3 /* Pods_Edge.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		220BE44F1EABB9AB00442FDC /* Edge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Edge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		220BE4521EABB9AB00442FDC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		220BE4541EABB9AB00442FDC /* MessagesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesController.swift; sourceTree = "<group>"; };
+		220BE4571EABB9AB00442FDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		220BE4591EABB9AB00442FDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		220BE45C1EABB9AB00442FDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		220BE45E1EABB9AB00442FDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		220BE4641EABBB8700442FDC /* RegisterPageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterPageController.swift; sourceTree = "<group>"; };
+		220BE4661EABBD7700442FDC /* FirstPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstPage.swift; sourceTree = "<group>"; };
+		22A405501EAFD2A700B5C90B /* UserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		22A405521EB0823E00B5C90B /* ResetPassword.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetPassword.swift; sourceTree = "<group>"; };
+		22DD8A931EB8D52B008BA1C5 /* MessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		22F6DA601EAEBA0500C35FE5 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		22FCC4E41EABC87200A52781 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		22FCC4E61EABD1A700A52781 /* LoginPageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginPageController.swift; sourceTree = "<group>"; };
+		22FCC4E81EABFE0A00A52781 /* NewMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewMessage.swift; sourceTree = "<group>"; };
+		22FCC4EA1EABFE5100A52781 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		22FCC4EC1EAC0A8200A52781 /* ChatController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatController.swift; sourceTree = "<group>"; };
+		22FCC4EE1EAC138900A52781 /* Handlers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Handlers.swift; sourceTree = "<group>"; };
+		6C9F02E9BA76EC1F6F3927C3 /* Pods_Edge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Edge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE40E6D6D5A60082222D8A86 /* Pods-Edge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Edge.release.xcconfig"; path = "Pods/Target Support Files/Pods-Edge/Pods-Edge.release.xcconfig"; sourceTree = "<group>"; };
+		DA4D952BD2045E9487514C3D /* Pods-Edge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Edge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Edge/Pods-Edge.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		220BE44C1EABB9AB00442FDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5DDE454A03399A4E4200835 /* Pods_Edge.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		220BE4461EABB9AA00442FDC = {
+			isa = PBXGroup;
+			children = (
+				220BE4511EABB9AB00442FDC /* Edge */,
+				220BE4501EABB9AB00442FDC /* Products */,
+				6FFB1FB048A0702061D8CCB3 /* Pods */,
+				95BD5525AAC5D8138888723E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		220BE4501EABB9AB00442FDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				220BE44F1EABB9AB00442FDC /* Edge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		220BE4511EABB9AB00442FDC /* Edge */ = {
+			isa = PBXGroup;
+			children = (
+				220BE4521EABB9AB00442FDC /* AppDelegate.swift */,
+				220BE4541EABB9AB00442FDC /* MessagesController.swift */,
+				22A405521EB0823E00B5C90B /* ResetPassword.swift */,
+				22DD8A931EB8D52B008BA1C5 /* MessageCell.swift */,
+				22FCC4EC1EAC0A8200A52781 /* ChatController.swift */,
+				22F6DA601EAEBA0500C35FE5 /* Message.swift */,
+				22FCC4E81EABFE0A00A52781 /* NewMessage.swift */,
+				22A405501EAFD2A700B5C90B /* UserCell.swift */,
+				22FCC4EA1EABFE5100A52781 /* User.swift */,
+				220BE4661EABBD7700442FDC /* FirstPage.swift */,
+				220BE4641EABBB8700442FDC /* RegisterPageController.swift */,
+				22FCC4EE1EAC138900A52781 /* Handlers.swift */,
+				22FCC4E61EABD1A700A52781 /* LoginPageController.swift */,
+				220BE4561EABB9AB00442FDC /* Main.storyboard */,
+				220BE4591EABB9AB00442FDC /* Assets.xcassets */,
+				220BE45B1EABB9AB00442FDC /* LaunchScreen.storyboard */,
+				22FCC4E41EABC87200A52781 /* GoogleService-Info.plist */,
+				220BE45E1EABB9AB00442FDC /* Info.plist */,
+			);
+			path = Edge;
+			sourceTree = "<group>";
+		};
+		6FFB1FB048A0702061D8CCB3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DA4D952BD2045E9487514C3D /* Pods-Edge.debug.xcconfig */,
+				BE40E6D6D5A60082222D8A86 /* Pods-Edge.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		95BD5525AAC5D8138888723E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C9F02E9BA76EC1F6F3927C3 /* Pods_Edge.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		220BE44E1EABB9AB00442FDC /* Edge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 220BE4611EABB9AB00442FDC /* Build configuration list for PBXNativeTarget "Edge" */;
+			buildPhases = (
+				778480032AE24EC631C10214 /* [CP] Check Pods Manifest.lock */,
+				220BE44B1EABB9AB00442FDC /* Sources */,
+				220BE44C1EABB9AB00442FDC /* Frameworks */,
+				220BE44D1EABB9AB00442FDC /* Resources */,
+				F1FCB07A86678A1C4AAF6E24 /* [CP] Embed Pods Frameworks */,
+				B09D19FFE4FB636010C59EDA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Edge;
+			productName = Edge;
+			productReference = 220BE44F1EABB9AB00442FDC /* Edge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		220BE4471EABB9AA00442FDC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Rodion Kuskov";
+				TargetAttributes = {
+					220BE44E1EABB9AB00442FDC = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = N7FHRYY8UY;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 220BE44A1EABB9AA00442FDC /* Build configuration list for PBXProject "Edge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 220BE4461EABB9AA00442FDC;
+			productRefGroup = 220BE4501EABB9AB00442FDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				220BE44E1EABB9AB00442FDC /* Edge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		220BE44D1EABB9AB00442FDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				220BE45D1EABB9AB00442FDC /* LaunchScreen.storyboard in Resources */,
+				22FCC4E51EABC87200A52781 /* GoogleService-Info.plist in Resources */,
+				220BE45A1EABB9AB00442FDC /* Assets.xcassets in Resources */,
+				220BE4581EABB9AB00442FDC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		778480032AE24EC631C10214 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Edge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B09D19FFE4FB636010C59EDA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Edge/Pods-Edge-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1FCB07A86678A1C4AAF6E24 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Edge/Pods-Edge-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Edge/Pods-Edge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		220BE44B1EABB9AB00442FDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22A405531EB0823E00B5C90B /* ResetPassword.swift in Sources */,
+				22FCC4E71EABD1A700A52781 /* LoginPageController.swift in Sources */,
+				220BE4551EABB9AB00442FDC /* MessagesController.swift in Sources */,
+				22FCC4EF1EAC138900A52781 /* Handlers.swift in Sources */,
+				22DD8A941EB8D52B008BA1C5 /* MessageCell.swift in Sources */,
+				22FCC4E91EABFE0A00A52781 /* NewMessage.swift in Sources */,
+				22FCC4ED1EAC0A8200A52781 /* ChatController.swift in Sources */,
+				220BE4651EABBB8800442FDC /* RegisterPageController.swift in Sources */,
+				220BE4531EABB9AB00442FDC /* AppDelegate.swift in Sources */,
+				22F6DA611EAEBA0500C35FE5 /* Message.swift in Sources */,
+				220BE4671EABBD7700442FDC /* FirstPage.swift in Sources */,
+				22A405511EAFD2A700B5C90B /* UserCell.swift in Sources */,
+				22FCC4EB1EABFE5100A52781 /* User.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		220BE4561EABB9AB00442FDC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				220BE4571EABB9AB00442FDC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		220BE45B1EABB9AB00442FDC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				220BE45C1EABB9AB00442FDC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		220BE45F1EABB9AB00442FDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		220BE4601EABB9AB00442FDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		220BE4621EABB9AB00442FDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA4D952BD2045E9487514C3D /* Pods-Edge.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N7FHRYY8UY;
+				INFOPLIST_FILE = Edge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KuskovRodion.Edge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		220BE4631EABB9AB00442FDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE40E6D6D5A60082222D8A86 /* Pods-Edge.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N7FHRYY8UY;
+				INFOPLIST_FILE = Edge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KuskovRodion.Edge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		220BE44A1EABB9AA00442FDC /* Build configuration list for PBXProject "Edge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				220BE45F1EABB9AB00442FDC /* Debug */,
+				220BE4601EABB9AB00442FDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		220BE4611EABB9AB00442FDC /* Build configuration list for PBXNativeTarget "Edge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				220BE4621EABB9AB00442FDC /* Debug */,
+				220BE4631EABB9AB00442FDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 220BE4471EABB9AA00442FDC /* Project object */;
+}
